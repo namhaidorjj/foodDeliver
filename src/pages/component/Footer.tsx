@@ -1,0 +1,55 @@
+import React from "react";
+
+import { FoodSVG } from "../SVGs/FoodSVG";
+import { Facebook } from "../SVGs/Facebook";
+import { Instagram } from "../SVGs/Instagram";
+import { Twitter } from "../SVGs/Twitter";
+import { BAckground } from "../SVGs/BAckground";
+
+export const Footer = () => {
+  return (
+    <div className="">
+      <div className="flex absolute  bg-[#18BA51] w-[100%] ">
+        <BAckground />
+        <BAckground />
+        <BAckground />
+      </div>
+      <div className="relative pl-[120px] pr-[120px] pt-[110px] pb-[110px] text-white flex flex-col gap-10">
+        <div className="flex gap-2 items-center justify-center">
+          <FoodSVG />
+          <p>Food Delivery</p>
+        </div>
+        <div className="flex justify-between">
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Нүүр
+          </button>
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Холбоо барих
+          </button>
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Хоолны цэс
+          </button>
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Үйлчилгээний нөхцөл
+          </button>
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Хүргэлтийн бүс
+          </button>
+          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+            Нууцлалын бодлого
+          </button>
+        </div>
+        <div className="flex gap-[18px] items-center justify-center">
+          <Facebook />
+          <Instagram />
+          <Twitter />
+        </div>
+        <div className="border-t"></div>
+        <div className="flex flex-col items-center justify-center gap-2">
+          <p>© 2024 Pinecone Foods LLC </p>
+          <p>Зохиогчийн эрх хуулиар хамгаалагдсан.</p>
+        </div>
+      </div>
+    </div>
+  );
+};
