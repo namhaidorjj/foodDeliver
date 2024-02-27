@@ -10,10 +10,10 @@ export const HomeHeader = () => {
       <div>
         <div className="bg-[#18BA51] bg-[url('/BgPhoto.png')] w-[full] h-[788px]  flex gap-[228px] center-center">
           <div className="text-white w-1/2 flex flex-col pl-[120px] pt-[276.65px] gap-[13px] h-[224.7px]">
-            <p className="text-[55px]  w-[384px] leading-[49.5px] ">
-              One-Pieace Food delivery
+            <p className="text-[55px]  w-[364px] leading-[49.5px] ">
+              One-Piece Food delivery
             </p>
-            <div className="border-b w-[383px]"></div>
+            <div className="border-b w-[358px]"></div>
             <p className="w-[384px] flex items-center justify-center">
               Browse the menus of East Blue’s best restaurants, foods and select
               your favourites dishes

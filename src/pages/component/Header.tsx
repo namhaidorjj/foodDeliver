@@ -29,7 +29,9 @@ export const Header = () => {
         </button>
         <button className="flex gap-2">
           <LoginSVG />
-          <p className="hover:text-[#18BA51] ">Нэвтрэх</p>
+          <a className="hover:text-[#18BA51]" href="/login">
+            Нэвтрэх
+          </a>
         </button>
       </div>
     </div>

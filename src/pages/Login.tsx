@@ -1,5 +1,10 @@
 import React from "react";
+import { LoginMain } from "./login/LoginMain";
 
-export const Login = () => {
-  return <div></div>;
-};
+export default function login() {
+  return (
+    <div>
+      <LoginMain />
+    </div>
+  );
+}
