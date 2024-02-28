@@ -13,7 +13,9 @@ export const Header = () => {
           className="w-[57px] h-[57px] rounded-2xl"
         />
         <div className="flex h-[41px] items-center w-[388px] justify-between pl-[24px]">
-          <button className="hover:text-[#18BA51] ">НҮҮР</button>
+          <button className="hover:text-[#18BA51] ">
+            <a href="/">НҮҮР</a>
+          </button>
           <button className="hover:text-[#18BA51] ">ХООЛНЫ ЦЭС</button>
           <button className="hover:text-[#18BA51] ">ХҮРГЭЛТИЙН БҮС</button>
         </div>

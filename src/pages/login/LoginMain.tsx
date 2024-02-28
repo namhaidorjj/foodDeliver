@@ -37,9 +37,11 @@ export const LoginMain = () => {
             <div className="w-[348px] text-[#3F4145]  flex justify-center">
               Эсвэл
             </div>
-            <button className="w-[348px] h-[48px] rounded-sm border-emerald-500 border">
-              Бүртгүүлэх
-            </button>
+            <a href="/signup">
+              <button className="w-[348px] h-[48px] rounded-sm border-emerald-500 border">
+                Бүртгүүлэх
+              </button>
+            </a>
           </div>
         </div>
       </div>
