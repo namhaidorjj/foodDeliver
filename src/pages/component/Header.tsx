@@ -5,12 +5,12 @@ import { SagsSVG } from "../SVGs/SagsSVG";
 
 export const Header = () => {
   return (
-    <div className="flex items-center justify-between pl-[115px] pr-[115px]">
+    <div className="flex items-center justify-between pl-[115px] pr-[115px] pb-2 pt-2">
       <div className="flex items-center">
         <img
           src="./favicon.png"
           alt=""
-          className="w-[57px] h-[57px] rounded-2xl"
+          className="w-[30px] h-[30px] rounded-2xl"
         />
         <div className="flex h-[41px] items-center w-[388px] justify-between pl-[24px]">
           <button className="hover:text-[#18BA51] ">

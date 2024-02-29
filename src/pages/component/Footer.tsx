@@ -20,24 +20,33 @@ export const Footer = () => {
           <p>Food Delivery</p>
         </div>
         <div className="flex justify-between">
-          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
-            Нүүр
-          </button>
+          <a href="/">
+            <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+              Нүүр
+            </button>
+          </a>
+
           <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
             Холбоо барих
           </button>
           <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
             Хоолны цэс
           </button>
-          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
-            Үйлчилгээний нөхцөл
-          </button>
-          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
-            Хүргэлтийн бүс
-          </button>
-          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
-            Нууцлалын бодлого
-          </button>
+          <a href="/TempsOfService">
+            <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+              Үйлчилгээний нөхцөл
+            </button>
+          </a>
+          <a href="./Radius">
+            <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+              Хүргэлтийн бүс
+            </button>
+          </a>
+          <a href="/Privacy">
+            <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+              Нууцлалын бодлого
+            </button>
+          </a>
         </div>
         <div className="flex gap-[18px] items-center justify-center">
           <Facebook />
