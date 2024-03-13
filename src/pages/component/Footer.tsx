@@ -29,9 +29,12 @@ export const Footer = () => {
           <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
             Холбоо барих
           </button>
-          <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
-            Хоолны цэс
-          </button>
+          <a href="/Menu">
+            <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
+              Хоолны цэс
+            </button>
+          </a>
+
           <a href="/TempsOfService">
             <button className="relative after:bg-white after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-500">
               Үйлчилгээний нөхцөл

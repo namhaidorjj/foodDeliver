@@ -2,10 +2,11 @@ import React from "react";
 import { Header } from "../component/Header";
 import { Footer } from "../component/Footer";
 import { HomeController } from "./HomeController";
+import { MainMenu } from "../Menu/MainMenu";
 
 export const HomeHeader = () => {
   return (
-    <div>
+    <>
       <Header />
       <div>
         <div className="bg-[#18BA51] bg-[url('/BgPhoto.png')] w-[full] h-[788px]  flex gap-[228px] center-center">
@@ -38,7 +39,8 @@ export const HomeHeader = () => {
         </div>
       </div>
       <HomeController />
+      <MainMenu />
       <Footer />
-    </div>
+    </>
   );
 };
